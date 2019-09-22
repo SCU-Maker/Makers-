@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS
+-I "D:\Program Files (x86)\MDK 474\ARM\RV31\INC"
+-I "D:\Program Files (x86)\MDK 474\ARM\CMSIS\Include"
+-I "D:\Program Files (x86)\MDK 474\ARM\Inc\ST\STM32F10x"
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\debug\obj\zh_decode.o --omf_browse .\debug\obj\zh_decode.crf --depend .\debug\obj\zh_decode.d "..\Lib\minigui\zh_decode.c"

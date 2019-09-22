@@ -1,0 +1,72 @@
+--cpu Cortex-M3
+".\build\main.o"
+".\build\epd.o"
+--library_type=microlib --strict --scatter "mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x.sct"
+
+
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_rcc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/retarget.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/startup_stm32f10x_md.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_tim.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_wwdg.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_rtc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_sdio.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_iwdg.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_crc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_dac.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_gpio.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/board.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_cec.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_fsmc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_pwr.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_flash.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/cmsis_nvic.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/misc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_exti.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/mbed_overrides.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_usart.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_adc.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_can.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_i2c.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_bkp.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_spi.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_dma.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/stm32f10x_dbgmcu.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/system_stm32f10x.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/sys.o
+            
+              mbed/TARGET_NUCLEO_F103RB/TOOLCHAIN_ARM_MICRO/mbed.ar
+            
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\build\DustSensor.map" -o .\build\DustSensor.axf
